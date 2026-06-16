@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer blue rounded square -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+        M15,10 L72,10 Q85,10 88,23 L88,65 Q88,78 75,80 L58,80 L58,68 Q58,60 50,58 L38,58 L38,80 L25,80 Q12,80 12,67 L12,23 Q12,10 15,10 Z"/>
+
+    <!-- Document lines -->
+    <path android:fillColor="#1565C0"
+        android:pathData="M22,30 L66,30 Q70,30 70,34 L70,38 Q70,42 66,42 L22,42 Q18,42 18,38 L18,34 Q18,30 22,30 Z"/>
+    <path android:fillColor="#1565C0"
+        android:pathData="M22,48 L55,48 Q59,48 59,52 L59,56 Q59,60 55,60 L22,60 Q18,60 18,56 L18,52 Q18,48 22,48 Z"/>
+
+    <!-- PDF label tab (bottom right) -->
+    <path android:fillColor="#E65100"
+        android:pathData="M58,68 L88,68 Q92,68 92,72 L92,85 Q92,90 88,90 L58,90 Q54,90 54,86 L54,72 Q54,68 58,68 Z"/>
+
+    <!-- P letter -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M61,73 L61,86 L64,86 L64,82 L67,82 Q70,82 70,78 Q70,73 67,73 Z M64,76 L67,76 Q67.5,76 67.5,78 Q67.5,80 67,80 L64,80 Z"/>
+    <!-- D letter -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M72,73 L72,86 L76,86 Q80,86 80,79 Q80,73 76,73 Z M75,76 L76,76 Q77,76 77,79 Q77,83 76,83 L75,83 Z"/>
+    <!-- F letter -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M82,73 L82,86 L85,86 L85,81 L88,81 L88,78 L85,78 L85,76 L89,76 L89,73 Z"/>
+</vector>

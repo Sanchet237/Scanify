@@ -1,0 +1,41 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Local configuration file
+local.properties
+
+# Generated files
+bin/
+gen/
+out/
+
+# Proguard folder
+proguard/
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Kotlin
+*.kotlin_module
+
+# Output of the go coverage tool
+*.out
+
+# Vendor directory (Go modules)
+vendor/
+
+# Test binaries
+*.test
+
+# OS files
+.DS_Store
+Thumbs.db
